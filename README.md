@@ -9,11 +9,11 @@ By Day 30, I will have built a full-stack to-do app (HTML/CSS/JS, React, Node/Ex
 ## Commitment
 
 - 1 to 2 hours every day
-- Daily time slot: <12:00 PM to 2 PM>
+- Daily time slot: 12:00 PM to 2 PM
 - One commit pushed every day
 
 ## Daily Log
 
 | Day | Topic | What I learned |
 |-----|-------|----------------|
-| 1 | Git + GitHub | <Learn how to create Repos and push changes> |
+| 1 | Git + GitHub | Learn how to create Repos and push changes |

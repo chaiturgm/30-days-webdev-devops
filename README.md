@@ -9,11 +9,12 @@ By Day 30, I will have built a full-stack to-do app (HTML/CSS/JS, React, Node/Ex
 ## Commitment
 
 - 1 to 2 hours every day
-- Daily time slot: 12:00 PM to 2 PM
+- Daily time slot: <your time slot>
 - One commit pushed every day
 
 ## Daily Log
 
-| Day | Topic | What I learned |
-|-----|-------|----------------|
-| 1 | Git + GitHub | Learn how to create Repos and push changes |
+| Day | Topic | What I learned | Link |
+|-----|-------|----------------|------|
+| 1 | Git + GitHub | <your Day 1 line> | [README.md](README.md) |
+| 2 | Linux terminal basics | `>` overwrites a file while `>>` appends. Permissions are read=4, write=2, execute=1, and `chmod 755` means owner can do everything while others can only read and run. | [linux-cheatsheet.md](linux-cheatsheet.md) |

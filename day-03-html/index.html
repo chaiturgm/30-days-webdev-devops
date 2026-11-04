@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Webpage</title>
+    </head>
+    <body>
+        <header>
+            <h1>This is a Sample Webpage with H1 header</h1>
+            <h2>This is another header with H2 header</h2>
+            <h3>Another one ofc with H3 header</h3>
+        </header>
+
+        <main>
+            <section>
+                <p>This is a paragraph tag "p" tag which helps us to write paragraphs like the ones which you are reading now</p>
+
+                <h2>My Goals</h2>
+                <ul>
+                    <li>Learn Frontend</li>
+                    <li>Learn Backend</li>
+                    <li>Build a Full Stack Application</li>
+                    <li>Learn DevOps</li>
+                    <li>Containerize the application</li>
+                </ul>
+
+                <h2>My 30-Day Plan</h2>
+                <ol>
+                    <li>Learn Git and Linux</li>
+                    <li>Learn HTML, CSS and JavaScript</li>
+                    <li>Build the backend</li>
+                    <li>Learn Docker and CI/CD</li>
+                </ol>
+
+                <a href="https://github.com/chaiturgm/30-days-webdev-devops">GitHub Repo</a>
+
+                <img src="https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE=" alt="Close-up of an eye with colorful makeup" width="100%">
+            </section>
+
+            <section>
+                <h2>Sign Up</h2>
+                <form>
+                    <p>
+                        <label for="email">Email address</label><br>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </p>
+
+                    <p>
+                        <label for="gender">Choose your gender</label><br>
+                        <select id="gender" name="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="prefer-not-to-say">Prefer not to say</option>
+                        </select>
+                    </p>
+
+                    <fieldset>
+                        <legend>Select courses you want to learn</legend>
+                        <input type="checkbox" id="frontend" name="courses" value="frontend">
+                        <label for="frontend">FrontEnd</label><br>
+
+                        <input type="checkbox" id="backend" name="courses" value="backend">
+                        <label for="backend">BackEnd</label><br>
+
+                        <input type="checkbox" id="devops" name="courses" value="devops">
+                        <label for="devops">DevOps</label>
+                    </fieldset>
+
+                    <p>
+                        <label for="feedback">Enter your feedback here</label><br>
+                        <textarea id="feedback" name="feedback" rows="4" cols="40"></textarea>
+                    </p>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>Day 3 of 30 Days of Web Dev + DevOps</p>
+        </footer>
+    </body>
+</html>

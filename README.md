@@ -18,3 +18,4 @@ By Day 30, I will have built a full-stack to-do app (HTML/CSS/JS, React, Node/Ex
 |-----|-------|----------------|------|
 | 1 | Git + GitHub | <your Day 1 line> | [README.md](README.md) |
 | 2 | Linux terminal basics | `>` overwrites a file while `>>` appends. Permissions are read=4, write=2, execute=1, and `chmod 755` means owner can do everything while others can only read and run. | [linux-cheatsheet.md](linux-cheatsheet.md) |
+| 3 | HTML basics | A `<label>` gives a name to a form field and says what it's for. It helps screen readers and regular users understand what they should fill in. Clicking the label also focuses its field. | [day-03-html](day-03-html/index.html) |

@@ -1,0 +1,168 @@
+/* ---------- Reset ---------- */
+* {
+    box-sizing: border-box; /* padding and border count inside the width */
+}
+
+/* ---------- Page ---------- */
+body {
+    background-color: #2f7d5b;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 24px 16px;
+}
+
+header,
+main,
+footer {
+    max-width: 760px;
+    margin: 0 auto; /* centers the content */
+}
+
+/* ---------- Headings ---------- */
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin-top: 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.35);
+    padding-bottom: 6px;
+}
+
+h3 {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: normal;
+    opacity: 0.85;
+    margin: 4px 0;
+}
+
+/* ---------- Cards (descendant selector: sections inside main) ---------- */
+main section {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 24px 0;
+}
+
+/* ---------- Text ---------- */
+p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.para-div {
+    padding: 10px;
+    margin-bottom: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-left: 4px solid white;
+    border-radius: 6px;
+}
+
+ul,
+ol {
+    padding-left: 24px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* ---------- Links ---------- */
+a {
+    color: #d9fff0;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0b3d2b;
+    background-color: #d9fff0;
+    text-decoration: none;
+}
+
+/* ---------- Image ---------- */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+/* ---------- Form ---------- */
+form label {
+    font-weight: bold;
+}
+
+form p {
+    text-align: left; /* undo the centered paragraph style inside the form */
+}
+
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    font-family: inherit;
+    font-size: 1rem;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: white;
+    color: #1c1c1a;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 3px solid #ffe066;
+}
+
+fieldset {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin: 16px 0;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* ---------- Button ---------- */
+#buttonId {
+    background-color: white;
+    color: #2f7d5b;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 24px;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#buttonId:hover {
+    background-color: aqua;
+    color: #0b3d2b;
+}
+
+/* ---------- Footer ---------- */
+footer p {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}

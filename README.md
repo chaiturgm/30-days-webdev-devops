@@ -9,7 +9,7 @@ By Day 30, I will have built a full-stack to-do app (HTML/CSS/JS, React, Node/Ex
 ## Commitment
 
 - 1 to 2 hours every day
-- Daily time slot: 10:00 AM to 12:00 PM
+- Daily time slot: 11:00 AM to 12:00 PM
 - One commit pushed every day
 
 ## Daily Log
